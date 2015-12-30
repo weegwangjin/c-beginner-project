@@ -1,0 +1,23 @@
+// Win32Project1.cpp : 콘솔 응용 프로그램에 대한 진입점을 정의합니다.
+//
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+	int size = 100;
+	int *value = NULL;
+	value = (int *)malloc(sizeof(int)*size);
+	int a = 0;
+	if (value != NULL)
+	{
+		printf(" %d", *value);
+		memset(value, 0, sizeof(int)*size);
+		scanf_s("%d", &a);
+		free(value);
+	}
+    return 1;
+}
+
