@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main()
-{
-    printf("I'm a 21 years old");
-    printf("my dream is to get a job in the silicon valley");
-    printf("my email address is wgj2050@naver.com");
-}
